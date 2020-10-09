@@ -9,7 +9,22 @@
 
 <body>
     Test file.
-    Hello there, das ist die anderung in geliche Linie
+    Hello there, das ist die anderung in geliche Linie.
+    <div class="dummy" id="dumm">Kerem Zopcuk</div>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <script>
+        document.querySelectorAll('.btn').forEach( item => {
+            item.addEventListener('click', ()=>{
+                alert('Katya!')
+            }
+            )
+        } )
+    </script>
 </body>
-
 </html>
